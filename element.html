@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .m:nth-child(2n){
+            color:yellow;
+            background-color: black;
+
+        }
+        .m:nth-child(2n+1){
+            background-color: orange;
+        }
+        .m{
+            margin-left: 500px;
+            width: 30%;
+        }
+        .m::before{
+            content: "wahid's crush ";
+            color: fuchsia;
+            background-color: bisque;
+        }
+        h1{
+            text-align: center;
+            font-size: 70px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>List of wahid's crush</h1>
+        <p class="m">Keya payel</p>
+        <p class="m">Mehazabein actress</p>
+        <p class="m">Tanzin tisha</p>
+        <p class="m">Tasnia farin</p>
+        <p class="m">Jacquiline farnandez</p>
+        <p class="m">adha sharma</p>
+        <p class="m">sonakshi sinha</p>
+        <p class="m">anushka sharma</p>
+        <p class="m">madhuri dikshit</p> <br>
+        
+    <div>
+        <p>wahid khan</p>
+        <p>marzuk wazed</p>
+        <p>sanjida</p>
+    </div>
+    <p style="font-size: 30px;">I have faced a problem that is , in style section if I set a style for "p" then it works for all the p in the body section</p>
+    <p style="font-size: 30px;" >Is there any solution to reduce writing class name??</p>
+</body>
+</html>
